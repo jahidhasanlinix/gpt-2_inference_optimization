@@ -1,50 +1,38 @@
-# 🧠 GPT-2 Inference API with FastAPI on Google Colab
+# 🧠 GPT-2 Inference API Development
 
-This project demonstrates how to deploy a Hugging Face GPT-2 model for inference using FastAPI, hosted directly from a Google Colab notebook. It also includes a separate client notebook to test both single and batch inference via HTTP.
+In this project, I used the HuggingFace GPT-2 model for inference using FastAPI and tested on Google Colab.
 
 ---
 
-## 🚀 1. GPT-2 Inference Server (FastAPI + ngrok)
+### 🚀 1. GPT-2 Inference Server-side (FastAPI + ngrok)
 
 **Run this notebook to:**
-- Load a GPT-2 model using Hugging Face Transformers
-- Serve it using FastAPI
-- Expose the API publicly using ngrok
+- Load a GPT-2 model using the HuggingFace transformers library
+- Test the FastAPI using ngrok
 
-👉 [**Open Inference Server Notebook**](https://colab.research.google.com/drive/1fREdBR0K0spA-kTzKdtM4Y0pL6quQola?usp=sharing)
+👉 [**GPT-2 Inference Server Google Colab**](https://colab.research.google.com/drive/1fREdBR0K0spA-kTzKdtM4Y0pL6quQola?usp=sharing)
 
 ### 🛠️ Features
 - `/generate` endpoint for single-prompt inference
 - `/batch_generate` endpoint for multi-prompt batch inference
-- Automatic use of GPU (if available)
-- Lightweight and ideal for prototyping & demos
+- Build your own prototype or demos to further test it
+- Experimenting with quantization, batching, and latency
 
 ---
 
-## 🧪 2. API Client Notebook
+### 🧪 2. API Client-end Testing
 
 **Use this notebook to:**
 - Send test requests to your public FastAPI endpoint
 - Measure tokens generated and latency
 - Support both single and batch inference calls
 
-👉 [**Open Client Test Notebook**](https://colab.research.google.com/drive/1hrwb8K3Iu39WnI3yXZOVytAikQqjwPnS?usp=sharing)
+👉 [**Client-end Testing Google Colab**](https://colab.research.google.com/drive/1hrwb8K3Iu39WnI3yXZOVytAikQqjwPnS?usp=sharing)
 
 ---
 
-## 📣 3. Use Cases
 
-⚡ Fast prototyping with Hugging Face models
-
-🔌 Running inference APIs directly inside notebooks
-
-🎓 Teaching, tutorials, and quick ML demos
-
-🧪 Experimenting with quantization, batching, and latency
-
----
-
-## 🙌 Credits
+### 🙌 Credits
 
 Built with:
 
